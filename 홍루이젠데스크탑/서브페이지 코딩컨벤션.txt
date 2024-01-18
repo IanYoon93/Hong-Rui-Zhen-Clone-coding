@@ -1,0 +1,36 @@
+#wrap
+#header
+#container .about_page .sub_container(공통 컨테이너와 다를 경우)
+.sub_visual
+.sub_tab
+.contents(메인 섹션과 같음)
+ .inner
+ 
+
+
+#footer
+
+
+서브페이지 공통
+common.css
+.sub_container
+.sub_visual
+.lnb
+.sub_tab
+.location (분류시킬때 사용 3뎁스구조일 때 사용)
+.content .inner
+
+
+layout.css
+/*회사소개*/
+.about_page .about
+.about_page로 시작
+
+<div id="container" class=".about_page(해당 서브페이지에만 적용하는 css) sub_container(서브전체 위쪽 패딩 등이 다를 경우) bg_type01(몇 개의 서브페이지만 배경색 등이 있을 경우">
+
+
+
+서브페이지에서 헤더 스타일이 다를 경우
+<header id= "header" class="sub_header"></header>
+#header.sub_header .gnb>li>a
+

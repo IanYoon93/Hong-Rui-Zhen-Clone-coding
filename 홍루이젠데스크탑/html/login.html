@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1280">
+  <!-- 검색 결과에 반영됨 -->
+  <meta name="description" content="샌드위치 베이커리 홍루이젠">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="홍루이젠 홈페이지">
+  <!-- index페이지에선 파일명 안써도 됨 -->
+  <meta property="og:url" content="http://panda518.dothome.co.kr/hong/index.html">
+  <meta property="og:image" content="http://panda518.dothome.co.kr/hong/images/noimg.png">
+  <meta property="og:description" content="샌드위치 베이커리 홍루이젠">
+  <title>홍루이젠</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/common/favicon.ico?v=1">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <!-- url?파라메터명=값, 타임스탬프로 캐싱방지 -->
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="css/layout.css?v=<?php echo time(); ?>">
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/ui_common.js?v=<?php echo time(); ?>"></script>
+</head>
+<body>
+  <div id="skip_navi">
+    <a href="#container">본문바로가기</a>
+  </div>
+  <div id="wrap">
+    <header id="header">
+      <h1 class="logo">
+        <a href="index.html">홍루이젠</a>
+      </h1>
+      <nav class="gnb_wrap">
+        <ul class="gnb">
+          <li>
+            <a href="#">브랜드소개</a>
+            <div class="depth02_wrap">
+              <div class="inner">
+                <h2 class="depth02_tit">브랜드 소개</h2>
+                <ul class="depth02">
+                  <li><a href="history.html">홍루이젠 소개</a></li>
+                  <li><a href="history.html">브랜드 철학</a></li>
+                  <li><a href="history.html">히스토리</a></li>
+                </ul>
+                <a href="history.html"><img src="images/common/menu_li01.png" alt="브랜드소개"></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#">브랜드관</a>
+          </li>
+          <li>
+            <a href="#">메뉴</a>
+            <div class="depth02_wrap">
+              <div class="inner">
+                <h2 class="depth02_tit">메뉴</h2>
+                <ul class="depth02">
+                  <li><a href="product.html">전체</a></li>
+                  <li><a href="product.html">신제품</a></li>
+                  <li><a href="product.html">소프트 샌드위치</a></li>
+                  <li><a href="product.html">갓군샌</a></li>
+                  <li><a href="product.html">디저트</a></li>
+                  <li><a href="product.html">음료</a></li>
+                </ul>
+                <a href="product.html"><img src="images/common/menu_li02.png" alt="메뉴"></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#">매장안내</a>
+            <div class="depth02_wrap">
+              <div class="inner">
+                <h2 class="depth02_tit">매장안내</h2>
+                <ul class="depth02">
+                  <li><a href="#">매장 찾기</a></li>
+                  <li><a href="#">단체주문</a></li>
+                </ul>
+                <a href="#"><img src="images/common/menu_li03.png" alt="매장안내"></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#">커뮤니티</a>
+            <div class="depth02_wrap">
+              <div class="inner">
+                <h2 class="depth02_tit">커뮤니티</h2>
+                <ul class="depth02">
+                  <li><a href="inquire.html">홍루이젠소식</a></li>
+                  <li><a href="inquire.html">프레스센터</a></li>
+                  <li><a href="inquire.html">이벤트</a></li>
+                  <li><a href="inquire.html">고객의 소리</a></li>
+                </ul>
+                <a href="inquire.html"><img src="images/common/menu_li04.png" alt="커뮤니티"></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#">쇼핑하기</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="util_wrap">
+        <ul class="util">
+          <li>
+            <a href="login.html">LOGIN</a>
+          </li>
+          <li>
+            <a href="login.html">JOIN</a>
+          </li>
+        </ul>
+        <a class="btn_all" href="#">전체메뉴 열기</a>
+        <div class="all_menu_wrap">
+          <div class="inner clearfix">
+            <h3 class="all_logo">
+              <a href="index.html">
+                <img src="images/common/all_logo.png" alt="전체메뉴로고">
+              </a>
+            </h3>
+            <ul class="all_menu">
+              <li>
+                <a href="history.html">브랜드소개</a>
+                <ul class="depth02">
+                  <li><a href="history.html">홍루이젠 소개</a></li>
+                  <li><a href="history.html">브랜드 철학</a></li>
+                  <li><a href="history.html">히스토리</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">브랜드관</a>
+                <ul class="depth02">
+                  <li>
+                    <a href="#">브랜드관</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">메뉴</a>
+                <ul class="depth02">
+                  <li><a href="product.html">전체</a></li>
+                  <li><a href="product.html">신제품</a></li>
+                  <li><a href="product.html">소프트 샌드위치</a></li>
+                  <li><a href="product.html">갓군샌</a></li>
+                  <li><a href="product.html">디저트</a></li>
+                  <li><a href="product.html">음료</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">매장안내</a>
+                <ul class="depth02">
+                  <li><a href="#">매장 찾기</a></li>
+                  <li><a href="#">단체주문</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">커뮤니티</a>
+                <ul class="depth02">
+                  <li><a href="inquire.html">홍루이젠소식</a></li>
+                  <li><a href="inquire.html">프레스센터</a></li>
+                  <li><a href="inquire.html">이벤트</a></li>
+                  <li><a href="inquire.html">고객의 소리</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">쇼핑하기</a>
+                <ul class="depth02">
+                  <li><a href="#">쇼핑하기</a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn_close" type="button">전체메뉴 닫기</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="container" class="login_page">
+      <div class="contents">
+        <div class="inner">
+          <div class="login_wrap">
+            <div class="login_tit_wrap">
+              <h2 class="login_tit">LOG IN</h2>
+            </div>
+            <div class="login_box">
+              <form>
+                <fieldset>
+                  <legend>로그인입력창</legend>
+                  <div class="login">
+                    <input type="text" id="loginId" name="loginId" title="아이디 입력" placeholder="아이디" maxlength="30">
+                    <input type="password" id="loginPwd" name="loginPwd" title="비밀번호 입력" placeholder="비밀번호" maxlength="16">
+                  </div>
+                  <div class="login_check">
+                    <input id="saveid" class="check" type="checkbox">
+                    <label for="saveid">
+                      <span>아이디 저장</span>
+                    </label>
+                    <div class="submit_login">
+                      <a href="#">로그인</a>
+                    </div>
+                  </div>
+                  <ul class="find_wrap">
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">아이디 찾기</a></li>
+                    <li><a href="#">비밀번호 찾기</a></li>
+                  </ul>
+                  <div class="sns_login">
+                    <h3 class="sns_tit">SNS계정으로 로그인하기</h3>
+                    <ul class="sns">
+                      <li>
+                        <a href="#">
+                          <img src="images/login/icon_facebook.png" alt="페이스북">
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img src="images/login/icon_naver.png" alt="네이버">
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img src="images/login/icon_kakao.png" alt="카카오">
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="footer_top">
+        <div class="inner">
+          <h2 class="logo">
+            <a href="index.html">
+              <img src="images/common/footer_logo.png" alt="푸터로고">
+            </a>
+          </h2>
+          <div class="left_wrap">
+            <ul class="footer_list">
+              <li><a href="#">브랜드소개</a></li>
+              <li><a href="#">브랜드관</a></li>
+              <li><a href="#">매장안내</a></li>
+            </ul>
+            <div class="address">
+              <p>
+                (주)타이웨이 대표이사 : 송원섭<br>
+            주소 : 경기도 고양시 덕양구 삼송로 12 반도유스퀘어 701,702호<br>
+            사업자등록번호 : 730-86-00779 가맹문의 대표번호 : 1566-8025
+              </p>
+          </div>
+          </div>
+          <div class="right_wrap">
+            <ul class="footer_list">
+              <li><a href="#">메뉴</a></li>
+              <li><a href="#">커뮤니티</a></li>
+              <li><a href="#">쇼핑하기</a></li>
+            </ul>
+            <div class="sns_wrap">
+              <ul class="link">
+                <li>
+                  <a href="#">인스타그램</a>
+                </li>
+                <li><a href="#">페이스북</a></li>
+                <li><a href="#">유튜브</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_copyright">
+        <p>Copyright (c) HONG RUI CHEN CORP All right reserved.</p>
+      </div>
+    </footer>
+    <!-- 퀵메뉴 -->
+    <div class="main_quick">
+      <ul class="btn_quick">
+        <li>
+          <a href="#">
+            <img src="images/common/quick_icon01.png" alt="창업문의">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/common/quick_icon02.png" alt="매장위치">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- // 퀵메뉴 -->
+  </div>
+</body>
+</html>  

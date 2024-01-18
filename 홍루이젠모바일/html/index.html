@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="샌드위치 베이커리 홍루이젠">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="홍루이젠 홈페이지">
+  <meta property="og:url" content="http://panda518.dothome.co.kr/m_hong/index.html">
+  <meta property="og:image" content="http://panda518.dothome.co.kr/m_hong/images/noimg.png">
+  <meta property="og:description" content="샌드위치 베이커리 홍루이젠">
+  <title>홍루이젠</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/common/favicon.ico?v=1">
+  <link rel="apple-touch-icon" href="images/common/hong_og.png">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="css/layout.css?v=<?php echo time(); ?>">
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/ui_common.js?v=<?php echo time(); ?>"></script>
+</head>
+<body>
+  <div id="skip_navi">
+    <a href="#container">본문바로가기</a>
+  </div>
+  <div id="wrap">
+    <header id="header">
+      <h1 class="logo">
+        <a href="index.html">
+          <img src="images/common/logo.png" alt="홍루이젠">
+        </a>
+      </h1>
+      <div class="family_wrap">
+        <button class="btn_family">브랜드</button>
+        <ul class="family">
+          <li>
+            <a href="#">프랜차이즈</a>
+          </li>
+        </ul>
+      </div>
+      <a href="#" class="btn_open">
+        <img src="images/common/icon_all.png" alt="전체메뉴 열기">
+      </a>
+      <div class="dimmed"></div>
+      <aside class="gnb_area">
+        <div class="login">
+          <p>로그인하신 후 더 많은<br>
+          홍루이젠의 소식을 만나보세요!</p>
+          <ul class="btn_wrap">
+            <li>
+              <a href="login.html" class="btn_join">Join Us</a>
+            </li>
+            <li>
+              <a href="login.html" class="btn_login">Login</a>
+            </li>
+          </ul>
+        </div>
+        <nav class="gnb_wrap">
+          <ul class="gnb">
+            <li>
+              <a class="gnb_list" href="#">브랜드소개</a>
+              <ul class="depth02">
+                <li><a href="history.html">홍루이젠 소개</a></li>
+                <li><a href="history.html">브랜드 철학</a></li>
+                <li><a href="history.html">히스토리</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">브랜드관</a>
+            </li>
+            <li>
+              <a class="gnb_list" href="#">메뉴</a>
+              <ul class="depth02">
+                <li><a href="product.html">전체</a></li>
+                <li><a href="product.html">신제품</a></li>
+                <li><a href="product.html">소프트 샌드위치</a></li>
+                <li><a href="product.html">갓군샌</a></li>
+                <li><a href="product.html">디저트</a></li>
+                <li><a href="product.html">음료</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="gnb_list" href="#">매장안내</a>
+              <ul class="depth02">
+                <li><a href="#">매장 찾기</a></li>
+                <li><a href="#">단체주문</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="gnb_list" href="#">커뮤니티</a>
+              <ul class="depth02">
+                <li><a href="inquire.html">홍루이젠소식</a></li>
+                <li><a href="inquire.html">프레스센터</a></li>
+                <li><a href="inquire.html">이벤트</a></li>
+                <li><a href="inquire.html">고객의 소리</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">쇼핑하기</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sns_wrap">
+          <p class="sns_tit">Follow Us</p>
+          <ul class="sns_list">
+            <li>
+              <a href="#">
+                <img src="images/common/insta_icon.png" alt="인스타그램">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/common/facebook_icon.png" alt="페이스북">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/common/youtube_icon.png" alt="유튜브">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <button class="btn_close" type="button">전체메뉴닫기</button>
+    </header>
+    <div id="container">
+      <section class="main_slider_wrap">
+        <h2 class="blind">메인 배너</h2>
+        <div class="swiper-container main_slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/common/main_slider01.png" alt="쿠키앤크림샌드위치">
+              </a>
+              <button class="btn_more" type="button">
+                <span class="blind">자세히보기</span>
+              </button>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/common/main_slider02.png" alt="초코퐁당샌드위치">
+              </a>
+              <button class="btn_more" type="button">
+                <span class="blind">자세히보기</span>
+              </button>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="main_menu">
+        <h2 class="main_tit">PRODUCT</h2>
+        <ul class="tab_menu">
+          <li class="active"><a href="#">NEW</a></li>
+          <li><a href="#">SANDWICH</a></li>
+          <li><a href="#">DESSERT</a></li>
+          <li><a href="#">DRINK</a></li>
+        </ul>
+        <div class="tab_con_wrap">
+          <div class="menu_slider_wrap on">
+            <div class="swiper-container menu_slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu01.png" alt="바베큐 풀드포크">
+                    </div>
+                    <strong>바베큐 풀드포크</strong>
+                    <p>전통 아메리칸 풍미 바베큐 폴드포크</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu02.png" alt="레몬홍차">
+                    </div>
+                    <strong>레몬홍차</strong>
+                    <p>진한 홍차에 달콤한 레몬을<br>
+                    더한 대만 인기 아이스티</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu03.png" alt="복숭아 아이스티">
+                    </div>
+                    <strong>복숭아 아이스티</strong>
+                    <p>청량함을 담은 상큼달콤 복숭아 아이스티</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu04.png" alt="청포도 아이스티">
+                    </div>
+                    <strong>청포도 아이스티</strong>
+                    <p>청량함을 담은 상큼달콤 청포도 아이스티</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu05.png" alt="딸기 아이스티">
+                    </div>
+                    <strong>딸기 아이스티</strong>
+                    <p>청량함을 담은 상큼달콤 딸기 아이스티</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu06.png" alt="쿠키앤크림 샌드위치">
+                    </div>
+                    <strong>쿠키앤크림 샌드위치</strong>
+                    <p>부드러운 우유크림 사이에<br>
+                      달콤 바삭 쿠키가 듬뿍</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu07.png" alt="제주 녹차라떼">
+                    </div>
+                    <strong>제주 녹차라떼</strong>
+                    <p>제주산 녹차와 우유를 블렌딩한<br>
+                    진하고 부드러운 녹차라떼</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu08.png" alt="제주녹차크림 샌드위치">
+                    </div>
+                    <strong>제주녹차크림 샌드위치</strong>
+                    <p>해풍을 맞고 자란 진하고 부드러운<br>
+                    제주 녹차와 고소한 우유크림의 만남</p>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-button-prev btn_arrow"></div>
+              <div class="swiper-button-next btn_arrow"></div>
+            </div>
+          </div>
+          <div class="menu_slider_wrap">
+            <div class="swiper-container menu_slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu01.png" alt="바베큐 풀드포크">
+                    </div>
+                    <strong>바베큐 풀드포크</strong>
+                    <p>전통 아메리칸 풍미 바베큐 폴드포크</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu06.png" alt="쿠키앤크림샌드위치">
+                    </div>
+                    <strong>쿠키앤크림 샌드위치</strong>
+                    <p>부드러운 우유크림 사이에 달콤 바삭 쿠키가 듬뿍</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu08.png" alt="제주녹차크림 샌드위치">
+                    </div>
+                    <strong>제주녹차크림 샌드위치</strong>
+                    <p>해풍을 맞고 자란 진하고 부드러운<br>
+                    제주 녹차와 고소한 우유크림의 만남</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu09.png" alt="잠봉뵈르">
+                    </div>
+                    <strong>홍루이젠 잠봉뵈르</strong>
+                    <p>풍미 가득 버터와 국내산 잠봉이 만나<br>
+                    부드러운 소프트 바게트 속으로</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu10.png" alt="딸기퐁당 샌드위치">
+                    </div>
+                    <strong>딸기퐁당 샌드위치</strong>
+                    <p>딸기 크림 속 동결건조 딸기가 퐁당</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu11.png" alt="초코퐁당샌드위치">
+                    </div>
+                    <strong>초코퐁당 샌드위치</strong>
+                    <p>깊고 진한 헤이즐넛 초코크림이<br>
+                      샌드위치에 퐁당</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu12.png" alt="호밀빵 치즈샌드위치">
+                    </div>
+                    <strong>호밀빵 치즈 샌드위치</strong>
+                    <p>더 건강해진 호밀빵 치즈 샌드위치</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu13.png" alt="호밀빵 햄샌드위치">
+                    </div>
+                    <strong>호밀빵 햄 샌드위치</strong>
+                    <p>더 건강해진 호밀빵 햄 샌드위치</p>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-button-prev btn_arrow"></div>
+              <div class="swiper-button-next btn_arrow"></div>
+            </div>
+          </div>
+          <div class="menu_slider_wrap">
+            <div class="swiper-container menu_slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu14.png" alt="리얼펑리수">
+                    </div>
+                    <strong>리얼펑리수</strong>
+                    <p>대만 현지 레시피를 완벽하게 구현한<br>
+                    프리미엄 파인애플 펑리수</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu15.png" alt="체다지즈 크로플">
+                    </div>
+                    <strong>체다치즈 크로플</strong>
+                    <p>단짠단짠 체다치즈와 즐기는 크로플</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu16.png" alt="마시멜로우 크로플">
+                    </div>
+                    <strong>마시멜로우 크로플</strong>
+                    <p>달콤한 마시멜로우와 즐기는 크로플</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu17.png" alt="아이스크림 크로플">
+                    </div>
+                    <strong>아이스크림 크로플</strong>
+                    <p>달콤한 아이스크림과 즐기는 크로플</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu18.png" alt="에그롤">
+                    </div>
+                    <strong>에그롤</strong>
+                    <p>고소한 계란과 깊고 부드러운 버터향 가득</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu19.png" alt="크로플">
+                    </div>
+                    <strong>크로플</strong>
+                    <p>겉바속쫄! 버터향 가득 크로플</p>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-button-prev btn_arrow"></div>
+              <div class="swiper-button-next btn_arrow"></div>
+            </div>
+          </div>
+          <div class="menu_slider_wrap">
+            <div class="swiper-container menu_slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu02.png" alt="레몬홍차">
+                    </div>
+                    <strong>레몬홍차</strong>
+                    <p>진한 홍차에 달콤한 레몬을<br>
+                    더한 대만 인기 아이스티</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu03.png" alt="복숭아아이스티">
+                    </div>
+                    <strong>복숭아 아이스티</strong>
+                    <p>청량함을 담은 상큼달콤 복숭아 아이스티</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu04.png" alt="청포도아이스티">
+                    </div>
+                    <strong>청포도 아이스티</strong>
+                    <p>청량함을 담은 상큼달콤 청포도 아이스티</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu05.png" alt="딸기아이스티">
+                    </div>
+                    <strong>딸기 아이스티</strong>
+                    <p>청량함을 담은 상큼달콤 딸기 아이스티</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu07.png" alt="제주녹차라떼">
+                    </div>
+                    <strong>제주 녹차라떼</strong>
+                    <p>제주산 녹차와 우유를 블렌딩한<br>
+                    진하고 부드러운 녹차라떼</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu20.png" alt="레드자몽티">
+                    </div>
+                    <strong>허니 레드자몽티</strong>
+                    <p>상큼한 레드자몽에 꿀을 더한 시즌 차</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu21.png" alt="레몬티">
+                    </div>
+                    <strong>허니 레몬티</strong>
+                    <p>새콤달콤 레몬에 꿀을 더한 시즌 차</p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_wrap">
+                      <img src="images/common/menu22.png" alt="제주녹차크림샌드위치">
+                    </div>
+                    <strong>제주녹차크림 샌드위치</strong>
+                    <p>고소한 인절미 콩가루와<br>
+                    우유가 믹스되어 누구나 즐길 수 있는 밀크 음료</p>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-button-prev btn_arrow"></div>
+              <div class="swiper-button-next btn_arrow"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main_event">
+        <h2 class="main_tit">EVENT</h2>
+        <a class="btn_more" href="#">더보기</a>
+        <div class="swiper-container event_slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/common/event05.png" alt="풀드포크이벤트">
+              </a>
+              <div class="txt_wrap">
+                <strong>바베큐 풀드포크 구매 시 음료증정 이벤트!</strong>
+                <p>2022.10.07 00:00 ~ 2022.10.17 00:00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/common/event02.png" alt="네이버페이이벤트">
+              </a>
+              <div class="txt_wrap">
+                <strong>네이버페이로 1만원 이상 결제 시<br>
+                  2천원 바로 적립!</strong>
+                <p>2022.07.22 00:00 ~ 2022.07.31 00:00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/common/event03.png" alt="무료증정이벤트">
+              </a>
+              <div class="txt_wrap">
+                <strong>13,000원 이상 구매시<br>
+                  음료 무료 증정&amp;즉시 할인</strong>
+                <p>2022.06.29 00:00 ~ 2022.07.13 00:00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/common/event07.png" alt="경품증정이벤트">
+              </a>
+              <div class="txt_wrap">
+                <strong>봄맞이 핫템 경품증정 이벤트<br>
+                  - 나이키 한정판 쏜다!</strong>
+                <p>2022.04.11 00:00 ~ 2022.04.30 00:00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/common/event08.png" alt="단체주문이벤트">
+              </a>
+              <div class="txt_wrap">
+                <strong>단체주문 이벤트</strong>
+                <p>2022.04.11 00:00 ~ 2022.04.30 00:00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/common/event01.png" alt="인증샷이벤트">
+              </a>
+              <div class="txt_wrap">
+                <strong>메이플월넛 샌드위치 인증샷 이벤트</strong>
+                <p>2022.02.23 00:00 ~ 2022.03.30 00:00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/common/event06.png" alt="소비자패널모집">
+              </a>
+              <div class="txt_wrap">
+                <strong>홍루이젠 소비자패널 3기 모집</strong>
+                <p>2022.02.23 00:00 ~ 2022.03.09 00:00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/common/event04.png" alt="무료증정이벤트">
+              </a>
+              <div class="txt_wrap">
+                <strong>샌드위치 5개 구매시 샌드위치<br>
+                  1개 무료 증정</strong>
+                <p>2022.02.23 00:00 ~ 2022.03.09 00:00</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </section>
+      <section class="main_news">
+        <h2 class="main_tit">NEWS</h2>
+        <ul class="news">
+          <li>
+            <a href="#">
+              <div class="img_wrap">
+                <img src="images/common/news.png" alt="썸네일">
+              </div>
+              <div class="txt_wrap">
+                <h3>홍루이젠, 여름 신메뉴 '아이스티' 3종 출시</h3>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img_wrap">
+                <img src="images/common/news.png" alt="썸네일">
+              </div>
+              <div class="txt_wrap">
+                <h3>홍루이젠, 신메뉴 NEW 쿠키앤크림 샌드위치 출시</h3>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="btn_wrap">
+          <a class="btn_more" href="#">All news</a>
+        </div>
+      </section>
+      <section class="main_sns">
+        <h2 class="main_tit">FOLLOW US</h2>
+        <div class="btn_link">
+          <a class="link" href="#">
+            <img src="images/common/sns_icon.png" alt="인스타그램">
+            <p>@hungruichenkorea</p>
+          </a>
+        </div>
+        <ul class="sns_wrap">
+          <li>
+            <a href="#">
+              <img src="images/common/sns01.png" alt="인스타그램">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/common/sns02.png" alt="인스타그램">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/common/sns03.png" alt="인스타그램">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/common/sns04.png" alt="인스타그램">
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <footer id="footer">
+      <div class="footer_top">
+        <ul class="footer_gnb">
+          <li><a href="history.html">브랜드소개</a></li>
+          <li><a href="#">브랜드관</a></li>
+          <li><a href="product.html">메뉴</a></li>
+        </ul>
+        <ul class="footer_gnb">
+          <li><a href="#">매장안내</a></li>
+          <li><a href="inquire.html">커뮤니티</a></li>
+          <li><a href="#">쇼핑하기</a></li>
+        </ul>
+      </div>
+      <div class="footer_bottom">
+        <h2 class="footer_logo">
+          <a href="index.html">
+            <img src="images/common/footer_logo.png" alt="푸터로고">
+          </a>
+        </h2>
+        <ul class="sns_wrap">
+          <li>
+            <a href="#">
+              <img src="images/common/insta_icon.png" alt="인스타그램">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/common/facebook_icon.png" alt="페이스북">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/common/youtube_icon.png" alt="유튜브">
+            </a>
+          </li>
+        </ul>
+        <p class="address">
+          (주)타이웨이 대표이사 : 송원섭<br>
+          주소 : 경기도 고양시 덕양구 삼송로 12 반도유스퀘어 701,702호<br>
+          사업자등록번호 : 730-86-00779 가맹문의 대표번호 : 1566-8025
+        </p>
+        <div class="footer_copyright">
+          <p>Copyright (c) HONG RUI CHEN CORP All right reserved.</p>
+        </div>
+      </div>
+      <div class="main_quick">
+        <ul class="btn_quick">
+          <li>
+            <a href="#">
+              <img src="images/common/quick_icon01.png" alt="창업문의">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/common/quick_icon02.png" alt="매장위치">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/common/btn_top.png" alt="페이지상단 이동">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
